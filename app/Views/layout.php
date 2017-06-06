@@ -8,9 +8,11 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
 		<link rel="stylesheet" href="<?= $this->assetUrl('css/animate.css')?>">
 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
-
+		
 		<link rel="stylesheet" href="<?= $this->assetUrl('css/style.css') ?>">
+
+
+
 
 		
 	</head>
@@ -49,5 +51,7 @@
           </div>
         </footer>
 		</div>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="<?= $this->assetUrl('js/materialize.min.js') ?>"></script>
 	</body>
 </html>

@@ -3,6 +3,7 @@
 namespace Controller;
 
 use \W\Controller\Controller;
+use \PHPMailer;
 
 class ContactController extends Controller
 {
@@ -13,8 +14,8 @@ class ContactController extends Controller
 	public function contact()
 	{
 		
-		$this->show('contact');
-
+		$this->show('Contact/contact', ['post' => $_POST]);
+		
 		
 	}
 
