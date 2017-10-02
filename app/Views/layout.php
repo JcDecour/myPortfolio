@@ -35,7 +35,7 @@
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="<?=$this->url('accueil')?>">Accueil</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Services</a>
