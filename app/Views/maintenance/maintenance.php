@@ -2,7 +2,7 @@
 <?php $this->start('head') ?>
 <?php $this->stop('head') ?>
 <?php $this->start('main_content') ?>
-<h1>Réparation Smartphone et tablette</h1>
+<p class="h1">Dépannage & maintenance informatique</p>
 <div class="row">
 	<div class="col-md-8">
 		<img class="rounded img-fluid" src="http://placehold.it/750x500" alt="">

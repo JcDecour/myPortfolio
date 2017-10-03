@@ -22,7 +22,7 @@
           </div>
         </div>
         <div class="carousel-item carousel-item-next carousel-item-left">
-          <img class="second-slide" src="<?= $this->assetUrl('img/reparation.png')?>" alt="Second slide">
+          <img class="second-slide" src="<?= $this->assetUrl('img/mobile-phone-broken.jpg')?>" alt="Second slide">
           <div class="container">
             <div class="carousel-caption d-none d-md-block">
               <h1>Another example headline.</h1>
