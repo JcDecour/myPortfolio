@@ -22,7 +22,7 @@
     <div class="container">
       <header>
         <div class="masthead">
-        <h3 class="text-muted">Project name</h3>
+        <h3 class="rollIn text-muted">Alloitech BY J-C Decourtheix</h3>
 
         <nav class="navbar navbar-expand-md navbar-light bg-light rounded mb-3">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,7 +60,7 @@
     </div>
     <footer class="py-5 bg-dark footer">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright © Your Website 2017</p>
+        <p class="m-0 text-center text-white">Copyright © Alloitech 2017</p>
       </div>
       <!-- /.container -->
     </footer>

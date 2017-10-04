@@ -1,4 +1,4 @@
-<?php $this->layout('layout', ['title' => 'Jean-Charles Decourtheix']) ?>
+<?php $this->layout('layout', ['title' => 'Alloitech: Dépannage et maintenance informatique en Medoc']) ?>
 <?php $this->start('head') ?>
 <?php $this->stop('head') ?>
 <?php $this->start('main_content') ?>

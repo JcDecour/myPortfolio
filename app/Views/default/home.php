@@ -7,10 +7,12 @@
 <?php $this->start('main_content') ?>
 <h3 style="color: black;"><span class="animated flash" >&lsaquo;Développement Web/>, Maintenance &amp; Dépannage informatique</span></h3>
 <div class="container">
-	<div class="loader">
-		<div class="dot"></div>
-		<div class="dot"></div>
-		<div class="dot"></div>
+	<div id="loader" class="row justify-content-center">
+		<div class="col-12 col-md-8 loader">
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+		</div>
 	</div>
 </div>
 <?php $this->stop('main_content') ?>
