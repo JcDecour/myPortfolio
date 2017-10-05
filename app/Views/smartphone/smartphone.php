@@ -23,14 +23,17 @@
 			<li>Résolution des problème de son</li>
 			<li>Remplacement bouton home</li>
 			<li>Remplacement module wi-fi</li>
+			<li>Problème de fonctionement du tactile...</li>
 		</ul>
 	</div>
 </div>
 <div class="row justify-content-center">
-	<div class="col-md-12">
+	<div class="col-md-8">
 		<h5 class="my-3">Votre problème ne figure pas dans cette liste ? <span class="h6">(non exhaustive)</span></h5>
 		<p>Pas de panique contactez-nous par téléphone ou via ce formulaire</p>
-		<a class="btn btn-info btn-lg" href="<?=$this->url('contact')?>">Demande d'information</a>
+	</div>
+	<div class="col-md-4">
+		<a class="btn btn-info btn-lg" href="<?=$this->url('contact')?>">Demande d'information</a><br>
 		<h6">Diagnostique et devis gratuit</h6>
 	</div>
 </div>
