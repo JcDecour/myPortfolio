@@ -1,55 +1,82 @@
 <?php $this->layout('layout', ['title' => 'Jean-Charles Decourtheix']) ?>
-<?php $this->start('head') ?>
+<?php $this->start('header_content') ?>
+<header>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="max-height: 30% !important;">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="<?= $this->assetUrl('img/maintenance.png')?>" alt="First slide">
+        <div class="carousel-caption d-none d-md-block title_carousel">
+          <h3>Dépannage informatique</h3>
+          <p>Windows, Mac et Linux</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?= $this->assetUrl('img/mobile-phone-broken.jpg')?>" alt="Second slide">
+        <div class="carousel-caption d-none d-md-block title_carousel">
+          <h3>Réparation Smartphone & Tablette</h3>
+          <p>Iphone et Smartphone Android</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?= $this->assetUrl('img/officemedium.jpg')?>" alt="Third slide">
+        <div class="carousel-caption d-none d-md-block title_carousel">
+          <h3>Développement site web</h3>
+          <p>Site vitrine & Solution E-commerce</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</header>
 <?php $this->stop('head') ?>
 <?php $this->start('main_content') ?>
 <div class="container">
-	
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
-        <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active carousel-item-left">
-          <img class="first-slide" src="<?= $this->assetUrl('img/maintenance.png')?>" alt="First slide">
-          <div class="container">
-            <div class="carousel-caption d-none d-md-block text-left">
-              <h1>Example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-            </div>
-          </div>
+  <div class="row justify-content-between">
+    <div class="col-lg-4 col-sm-6">
+      <div class="card h-100">
+        <h4 class="card-header">Card Title</h4>
+        <div class="card-body">
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
         </div>
-        <div class="carousel-item carousel-item-next carousel-item-left">
-          <img class="second-slide" src="<?= $this->assetUrl('img/mobile-phone-broken.jpg')?>" alt="Second slide">
-          <div class="container">
-            <div class="carousel-caption d-none d-md-block">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
-          <div class="container">
-            <div class="carousel-caption d-none d-md-block text-right">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-            </div>
-          </div>
+        <div class="card-footer">
+          <a href="#" class="btn btn-primary">Learn More</a>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
     </div>
+    <div class="col-lg-4 col-md-4">
+      <div class="card h-100">
+        <h4 class="card-header">Card Title</h4>
+        <div class="card-body">
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4">
+      <div class="card h-100">
+        <h4 class="card-header">Card Title</h4>
+        <div class="card-body">
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 <?php $this->stop('main_content') ?>

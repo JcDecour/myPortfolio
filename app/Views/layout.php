@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <?=$this->section('head')?>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title><?= $this->e($title) ?></title>
@@ -20,7 +19,7 @@
   </head>
   <body>
     <div class="container">
-      <header>
+      <nav>
         <div class="masthead">
         <h3 class="rollIn text-muted">Alloitech BY J-C Decourtheix</h3>
 
@@ -52,16 +51,16 @@
           </div>
         </nav>
       </div>
-      </header>
+      </nav>
+      <!-- section header -->
+        <?=$this->section('header_content')?>
       <section>
 
         <?= $this->section('main_content') ?>
       </section>
     </div>
     <footer class="py-5 bg-dark footer">
-      <div class="container">
         <p class="m-0 text-center text-white">Copyright © Alloitech 2017</p>
-      </div>
       <!-- /.container -->
     </footer>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
