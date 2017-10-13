@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <?=$this->section('head')?>
     <title><?= $this->e($title) ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="description" content="Une description de la page..." />
@@ -14,6 +15,7 @@
     <link rel="stylesheet" href="<?= $this->assetUrl('css/grid.min.css') ?>">
     <link rel="stylesheet" href="<?= $this->assetUrl('css/reboot.min.css') ?>">
     <link rel="stylesheet" href="<?= $this->assetUrl('css/styleb1.min.css') ?>">
+    <link rel="stylesheet" href="<?= $this->assetUrl('css/loader.css') ?>">
     <link rel="stylesheet" href="<?= $this->assetUrl('css/style.css') ?>">
 
   </head>

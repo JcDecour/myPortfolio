@@ -40,7 +40,7 @@
     </a>
   </div>
 </header>
-<?php $this->stop('head') ?>
+<?php $this->stop('header_content') ?>
 <?php $this->start('main_content') ?>
 <div class="container">
   <div class="row justify-content-between">
