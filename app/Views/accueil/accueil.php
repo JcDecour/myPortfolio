@@ -42,11 +42,10 @@
 </header>
 <?php $this->stop('header_content') ?>
 <?php $this->start('main_content') ?>
-<div class="container">
-  <div class="row justify-content-between div_accueil">
-    <div class="col-lg-4 col-sm-6">
+  <div class="row justify-content-between row-accueil">
+    <div class="col-lg col-sm">
       <div class="card h-100">
-        <h4 class="card-header">Card Title</h4>
+        <h4 class="card-header"><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i><span class="card-title">&nbsp;Proximité</span></h4>
         <div class="card-body">
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
         </div>
@@ -55,9 +54,9 @@
         </div>
       </div>
     </div>
-    <div class="col-lg-4 col-md-4">
+    <div class="col-lg col-sm">
       <div class="card h-100">
-        <h4 class="card-header">Card Title</h4>
+        <h4 class="card-header"><i class="fa fa-clock-o fa-2x" aria-hidden="true"></i><span class="card-title">&nbsp;Rapidité</span></h4>
         <div class="card-body">
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
         </div>
@@ -66,9 +65,9 @@
         </div>
       </div>
     </div>
-    <div class="col-lg-4 col-md-4">
+    <div class="col-lg col-sm">
       <div class="card h-100">
-        <h4 class="card-header">Card Title</h4>
+        <h4 class="card-header"><span class="card-title">Card Title</span></h4>
         <div class="card-body">
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
         </div>
@@ -78,5 +77,4 @@
       </div>
     </div>
   </div>
-</div>
 <?php $this->stop('main_content') ?>
