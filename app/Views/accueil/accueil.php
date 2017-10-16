@@ -43,7 +43,7 @@
 <?php $this->stop('header_content') ?>
 <?php $this->start('main_content') ?>
 <div class="container">
-  <div class="row justify-content-between">
+  <div class="row justify-content-between div_accueil">
     <div class="col-lg-4 col-sm-6">
       <div class="card h-100">
         <h4 class="card-header">Card Title</h4>
