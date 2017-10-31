@@ -57,7 +57,7 @@ ul.right {
 .accueil {
   background-color: rgba(0, 0, 0, 0.5);
 }
-.row-accueil {
+#row-accueil {
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -74,10 +74,21 @@ span.card-title {
   vertical-align: 25%;
   font-size: 1em;
 }
+
+#row-accueil-responsive{
+  display: none;
+}
+
+
 /*******style maintenance informatique******/
 
 
 /*******style réparations smartphone*******/
+.row-smartphone{
+  background-color: #eee;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 .div_smart {
   padding-top: 8px;
   padding-bottom: 8px;
@@ -86,6 +97,10 @@ span.card-title {
   background-color: rgba(0, 0, 0, 0.5);
 }
 .btn-contact {
+}
+
+.check {
+  color: green;
 }
 
 /*******style création web******/
@@ -107,4 +122,21 @@ span.card-title {
 .container {
   max-width: 80%;
   min-width: 80%;
+}
+
+@media (max-width: 768px) {
+
+  /***************** Accueil ***************/
+  #row-accueil-responsive{
+    display: inline;
+  }
+  #row-accueil {
+    display: none;
+  }
+  .div-accueil {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  }
 }

@@ -3,7 +3,7 @@
 <?php $this->stop('head') ?>
 <?php $this->start('main_content') ?>
 <h2>Réparation Smartphone et tablette</h2>
-<div class="row">
+<div class="row row-smartphone">
 	<div class="col-md-6">
 		<img class="rounded img-fluid" src="<?= $this->assetUrl('img/mobile-phone-broken.jpg')?>" alt="">
 	</div>
@@ -19,22 +19,22 @@
 	</div>
 </div>
 <br><br>
-<div class="row">
+<div class="row row-smartphone">
 	<div class="col-md-6">
 		<h3 class="my-3">Prestations proposé</h3>
 		<ul class="left">
-			<li><i class="fa fa-check-square-o fa-2x" aria-hidden="true">&nbsp;</i>Remplacement d'écran (lcd et/ou vitre cassé)</li>
-			<li><i class="fa fa-check-square-o fa-2x" aria-hidden="true">&nbsp;</i>Remplacement de batterie</li>
-			<li><i class="fa fa-check-square-o fa-2x" aria-hidden="true">&nbsp;</i>Mise à jour logiciel</li>
-			<li><i class="fa fa-check-square-o fa-2x" aria-hidden="true">&nbsp;</i>Résolution des problèmes de charge (connecteur ou micro-puce de gestion)</li>
-			<li><i class="fa fa-check-square-o fa-2x" aria-hidden="true">&nbsp;</i>Résolution des problème de son</li>
-			<li><i class="fa fa-check-square-o fa-2x" aria-hidden="true">&nbsp;</i>Remplacement bouton home</li>
-			<li><i class="fa fa-check-square-o fa-2x" aria-hidden="true">&nbsp;</i>Remplacement module wi-fi</li>
-			<li><i class="fa fa-check-square-o fa-2x" aria-hidden="true">&nbsp;</i>Problème de fonctionement du tactile...</li>
+			<li><i class="fa fa-check-square-o fa-2x check" aria-hidden="true">&nbsp;</i>Remplacement d'écran (lcd et/ou vitre cassé)</li>
+			<li><i class="fa fa-check-square-o fa-2x check" aria-hidden="true">&nbsp;</i>Remplacement de batterie</li>
+			<li><i class="fa fa-check-square-o fa-2x check" aria-hidden="true">&nbsp;</i>Mise à jour logiciel</li>
+			<li><i class="fa fa-check-square-o fa-2x check" aria-hidden="true">&nbsp;</i>Résolution des problèmes de charge (connecteur ou micro-puce de gestion)</li>
+			<li><i class="fa fa-check-square-o fa-2x check" aria-hidden="true">&nbsp;</i>Résolution des problème de son</li>
+			<li><i class="fa fa-check-square-o fa-2x check" aria-hidden="true">&nbsp;</i>Remplacement bouton home</li>
+			<li><i class="fa fa-check-square-o fa-2x check" aria-hidden="true">&nbsp;</i>Remplacement module wi-fi</li>
+			<li><i class="fa fa-check-square-o fa-2x check" aria-hidden="true">&nbsp;</i>Problème de fonctionement du tactile...</li>
 		</ul>
 	</div>
 	<div class="col-md-6">
-		<img class="rounded img-fluid" src="<?= $this->assetUrl('img/mobile-phone-broken.jpg')?>" alt="">
+		<img class="rounded img-fluid" src="<?= $this->assetUrl('img/mobile-phone-1280.jpg')?>" alt="">
 	</div>
 </div>
 <div class="column justify-content-center div_smart">

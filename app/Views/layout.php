@@ -21,8 +21,8 @@
   </head>
   <body>
     <div class="container">
-        <div class="masthead">
-          <div class="row justify-content-between">
+       <!--  <div class="masthead">
+ -->          <div class="row justify-content-between">
             <h3 class="rollIn">Alloitech<small class="text-muted span-layout">BY J-C Decourtheix</small></h3>
             <a href="tel:+33761607494" class="phone-number"><i class="fa fa-phone-square fa-2x" aria-hidden="true"></i><span class="phone-number">&nbsp;0761607494</span></a>
           </div>
@@ -53,7 +53,7 @@
               </ul>
             </div>
           </nav>
-        </div>
+        <!-- </div> -->
       <!-- section header -->
       <?=$this->section('header_content')?>
       <section>
