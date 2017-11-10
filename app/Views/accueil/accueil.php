@@ -48,9 +48,9 @@
 <div id="row-accueil" class="row justify-content-between">
 	<div class="col div-accueil">
 		<div class="card h-100">
-			<h4 class="card-header"><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i><span class="card-title">&nbsp;Proximité</span></h4>
+			<h4 class="card-header"><i class="fa fa-map-marker fa-2x map-marker" aria-hidden="true"></i><span class="card-title">&nbsp;Proximité</span></h4>
 			<div class="card-body">
-				<p class="card-text">Nous assurons les <strong>dépannage informatique</strong>, <strong>réparation smartphone et tablette</strong> sur tout le <strong>secteur Médoc</strong> et la création de <strong>site web</strong> sur toute la France.</p>
+				<p class="card-text">Nous assurons les <strong>dépannage informatique</strong>, <strong>réparation smartphone et tablette</strong> sur tout le <strong>secteur Médoc</strong> et création de <strong>site web</strong> sur tout le téritoire.</p>
 			</div>
 			<div class="card-footer">
 			</div>
@@ -68,7 +68,7 @@
 	</div>
 	<div class="col div-accueil">
 		<div class="card h-100">
-			<h4 class="card-header"><i class="fa fa-clock-o fa-2x" aria-hidden="true"></i><span class="card-title">&nbsp;Réactivité</span></h4>
+			<h4 class="card-header"><i class="fa fa-clock-o fa-2x clock" aria-hidden="true"></i><span class="card-title">&nbsp;Réactivité</span></h4>
 			<div class="card-body">
 				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
 			</div>
@@ -81,9 +81,9 @@
 <div id="row-accueil-responsive" class="row justify-content-between row-accueil">
 	<div class="col div-accueil">
 		<div class="card h-100">
-			<h4 class="card-header"><i class="fa fa-desktop fa-2x" aria-hidden="true"></i><span class="card-title">&nbsp;Informatique</span></h4>
+			<h4 class="card-header"><i class="fa fa-desktop fa-2x check" aria-hidden="true"></i><span class="card-title">&nbsp;Maintenance Informatique</span></h4>
 			<div class="card-body">
-				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+				<p class="card-text">Diagnostique & dépannage de vos ordinateurs et péripheriques sur site</p>
 			</div>
 			<div class="card-footer">
 				<a href="<?=$this->url('maintenance')?>" class="btn btn-primary">En savoir plus</a>
@@ -92,7 +92,7 @@
 	</div>
 	<div class="col div-accueil">
 		<div class="card h-100">
-			<h4 class="card-header"><i class="fa fa-mobile fa-2x" aria-hidden="true"></i><span class="card-title">&nbsp;Smartphone & tablette</span></h4>
+			<h4 class="card-header"><i class="fa fa-mobile fa-2x clock" aria-hidden="true"></i><span class="card-title">&nbsp;Smartphone & tablette</span></h4>
 			<div class="card-body">
 				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
 			</div>
@@ -103,7 +103,7 @@
 	</div>
 	<div class="col div-accueil">
 		<div class="card h-100">
-			<h4 class="card-header"><i class="fa fa-code fa-2x" aria-hidden="true"></i><span class="card-title">&nbsp;Créations Web</span></h4>
+			<h4 class="card-header"><i class="fa fa-code fa-2x map-marker" aria-hidden="true"></i><span class="card-title">&nbsp;Créations Web</span></h4>
 			<div class="card-body">
 				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
 			</div>
