@@ -11,7 +11,7 @@
 			<div class="carousel-item active">
 				<img class="d-block w-100" src="<?= $this->assetUrl('img/maintenance.png')?>" alt="First slide">
 				<div class="carousel-caption d-none d-md-block title_carousel">
-					<h3><strong>Dépannage informatique</strong></h3>
+					<h3><strong>Dépannage Informatique</strong></h3>
 					<p>Windows, Mac et Linux</p>
 					<a href="<?=$this->url('maintenance')?>" class="btn btn-primary">En savoir plus</a>
 				</div>
@@ -46,31 +46,31 @@
 <?php $this->stop('header_content') ?>
 <?php $this->start('main_content') ?>
 <div id="row-accueil" class="row justify-content-between">
-	<div class="col div-accueil">
+	<div class="col div-accueil animated fadeInLeft">
 		<div class="card h-100">
 			<h4 class="card-header"><i class="fa fa-map-marker fa-2x map-marker" aria-hidden="true"></i><span class="card-title">&nbsp;Proximité</span></h4>
 			<div class="card-body">
-				<p class="card-text">Nous assurons les <strong>dépannage informatique</strong>, <strong>réparation smartphone et tablette</strong> sur tout le <strong>secteur Médoc</strong> et création de <strong>site web</strong> sur tout le téritoire.</p>
+				<p class="card-text">Nous assurons les <strong>dépannage informatique</strong>, <strong>réparation smartphone et tablette</strong> sur tout le <strong>secteur-Médoc</strong> et création de <strong>site web</strong> sur tout le téritoire.</p>
 			</div>
 			<div class="card-footer">
 			</div>
 		</div>
 	</div>
-	<div class="col div-accueil">
+	<div class="col div-accueil animated fadeInDown">
 		<div class="card h-100">
 			<h4 class="card-header"><i class="fa fa-check fa-2x check" aria-hidden="true"></i><span class="card-title">&nbsp;Qualité</span></h4>
 			<div class="card-body">
-				<p class="card-text">Satisfaire nos clients est une priorité, pour cela nous mettrons tout en oeuvre pour vous fournir le meilleur service possible.</p>
+				<p class="card-text"><strong>Satisfaire nos clients</strong> est une priorité, pour cela nous mettrons tout en oeuvre pour vous fournir le <strong>meilleur service</strong> possible.</p>
 			</div>
 			<div class="card-footer">
 			</div>
 		</div>
 	</div>
-	<div class="col div-accueil">
+	<div class="col div-accueil animated fadeInRight">
 		<div class="card h-100">
 			<h4 class="card-header"><i class="fa fa-clock-o fa-2x clock" aria-hidden="true"></i><span class="card-title">&nbsp;Réactivité</span></h4>
 			<div class="card-body">
-				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+				<p class="card-text"><strong>Ordinateurs</strong>, <strong>smartphone et tablette</strong>, tout ces objets sont devenus indispensable à notre quotidien.<br>Notre équipe s'engage à <strong>intervenir rapidement</strong>, afin de <strong>réparer</strong> votre <strong>équipement multimédia</strong> dans les plus brefs délais.</p>
 			</div>
 			<div class="card-footer">
 			</div>
@@ -79,33 +79,33 @@
 </div>
 <!-- info responsive-->
 <div id="row-accueil-responsive" class="row justify-content-between row-accueil">
-	<div class="col div-accueil">
+	<div class="col div-accueil animated fadeInLeft">
 		<div class="card h-100">
-			<h4 class="card-header"><i class="fa fa-desktop fa-2x check" aria-hidden="true"></i><span class="card-title">&nbsp;Maintenance Informatique</span></h4>
+			<h4 class="card-header"><i class="fa fa-desktop fa-2x check" aria-hidden="true"></i><span class="card-title"><br>Maintenance Informatique</span></h4>
 			<div class="card-body">
-				<p class="card-text">Diagnostique & dépannage de vos ordinateurs et péripheriques sur site</p>
+				<p class="card-text"><strong>Diagnostics & dépannage</strong> de vos <strong>ordinateurs</strong> et <strong>péripheriques</strong> sur site, à distance ou après enlèvement  sur le lieux de votre choix.</p>
 			</div>
 			<div class="card-footer">
 				<a href="<?=$this->url('maintenance')?>" class="btn btn-primary">En savoir plus</a>
 			</div>
 		</div>
 	</div>
-	<div class="col div-accueil">
+	<div class="col div-accueil animated fadeInRight">
 		<div class="card h-100">
-			<h4 class="card-header"><i class="fa fa-mobile fa-2x clock" aria-hidden="true"></i><span class="card-title">&nbsp;Smartphone & tablette</span></h4>
+			<h4 class="card-header"><i class="fa fa-mobile fa-2x clock" aria-hidden="true"></i><span class="card-title"><br>Smartphone & tablette</span></h4>
 			<div class="card-body">
-				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+				<p class="card-text">Nous assurons la <strong>réparation</strong> de vos <strong>smartphones & tablettes</strong> sur <strong>Lesparre-médoc</strong>et ces alentours aux <strong>meilleurs prix.</strong></p>
 			</div>
 			<div class="card-footer">
 				<a href="<?=$this->url('smartphone')?>" class="btn btn-primary">En savoir plus</a>
 			</div>
 		</div>
 	</div>
-	<div class="col div-accueil">
+	<div class="col div-accueil animated fadeInLeft">
 		<div class="card h-100">
-			<h4 class="card-header"><i class="fa fa-code fa-2x map-marker" aria-hidden="true"></i><span class="card-title">&nbsp;Créations Web</span></h4>
+			<h4 class="card-header"><i class="fa fa-code fa-2x map-marker" aria-hidden="true"></i><span class="card-title"><br>Créations Web</span></h4>
 			<div class="card-body">
-				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+				<p class="card-text">Besoin d'un <strong>site vitrine</strong> ou d'une <strong>solution E-commerce</strong> ?<br>N'attendez plus, créons le votre !</p>
 			</div>
 			<div class="card-footer">
 				<a href="<?=$this->url('developpement-web')?>" class="btn btn-primary">En savoir plus</a>
@@ -113,6 +113,4 @@
 		</div>
 	</div>
 </div>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyFb2FYJ4Q7RB1U7AImIiu-OqtI5yHmXY&callback=initMap"
-type="text/javascript"></script>
 <?php $this->stop('main_content') ?>

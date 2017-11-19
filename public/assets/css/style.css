@@ -24,15 +24,9 @@ body {
           box-sizing: border-box;
 }
 
-#content {
-    padding-bottom: 100px/* hauteur footer */ ;
-}
-
-/*******style loader*******/
-
-#loader {
-  margin-top: 20vh;
-}
+/*#content {
+    padding-bottom: 100px/* hauteur footer  ;
+}*/
 
 
 
@@ -51,13 +45,11 @@ ul.right {
 nav.bg-light {
   /*background-color: #f9a726 !important;*/
 }
-
 /*******style page d'accueil********/
 .title_carousel {
   background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 20px;
+  border-radius: 5px;
 }
-
 .accueil {
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -78,12 +70,14 @@ span.card-title {
   vertical-align: 25%;
   font-size: 1em;
 }
-
 #row-accueil-responsive{
   display: none;
 }
 
-
+#map{
+  min-height: 100%;
+  min-width: 100%;
+}
 /*******style maintenance informatique******/
 
 
@@ -115,33 +109,43 @@ span.card-title {
 .clock {
   color: #2aa8ce;
 }
-
 /*******style création web******/
 /*******bouton********/
-
 .btn-info {
   display: inline-block;
   border-color: #46c601;
   background-color: #46c601;
 }
-
-
 /*******style footer ********/
-
 /*FOOTER COLLE EN BAS*/
 .footer {
-    /*position: absolute;
-    bottom: 0;*/
+  /*position: relative;*/
+    /*bottom: 0;*/
     width: 100%;
-    height: 60px;
+    min-height: 50%;
     background: rgba(0,0,0,.32);
     color: #FFFFFF;
+}
+.card-accueil {
+  /*position: absolute;*/
+  min-height: 400px;
+  min-width: 400px;
+  background: initial;
+}
+.card-map {
+  max-width: 400px;
+  max-height: 400px;
+  background: initial;
 }
   
 .container {
   max-width: 80%;
   min-width: 80%;
 }
+/*.py-5 {
+  padding-bottom: 25rem!important;
+  padding-top: 25rem!important;
+}*/
 
 @media (max-width: 768px) {
 
