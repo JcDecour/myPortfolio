@@ -20,6 +20,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     </head>
     <link rel="stylesheet" href="<?= $this->assetUrl('css/style.css') ?>">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
   </head>
   <body>
     <div class="container">
@@ -64,7 +65,7 @@
       </div>
       <footer class="py-5 bg-dark footer">
         <div class="container">
-          <div class="row justify-content-center">
+          <div class="row justify-content-center row-footer">
             <div class="col-md-4 col-sm-4">
               <h4 class=""><span class="card-title"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;Informations</span></h4>
               <ul>
@@ -72,6 +73,8 @@
                 <li></li><a href="<?=$this->url('smartphone')?>" class="light"><strong>Réparation Smartphone St-Vivien-de-Médoc</strong></a></li>
                 <li></li><a href="<?=$this->url('maintenance')?>" class="light"><strong>Dépannage Informatique Lesparre-Médoc</strong></a></li>
                 <li></li><a href="<?=$this->url('smartphone')?>" class="light"><strong>Réparation Smartphone Lesparre-Médoc</strong></a></li>
+                <li></li><a href="<?=$this->url('maintenance')?>" class="light"><strong>Dépannage Informatique Pauillac</strong></a></li>
+                <li></li><a href="<?=$this->url('smartphone')?>" class="light"><strong>Réparation Smartphone Pauillac</strong></a></li>
                 <li></li><a href="<?=$this->url('maintenance')?>" class="light"><strong>Dépannage Informatique St-Laurent</strong></a></li>
                 <li></li><a href="<?=$this->url('smartphone')?>" class="light"><strong>Réparation Smartphone St-Laurent</strong></a></li>
                 <li></li><a href="<?=$this->url('maintenance')?>" class="light"><strong>Dépannage Informatique Castelnau-de-Médoc</strong></a></li>
@@ -99,7 +102,6 @@
       function initMap() {
       // Create a map object and specify the DOM element for display.
       var optionsCarte = {
-      CircleColor: '#81BEF7',
       zoom: 9,
       center: {lat: 45.25, lng:  -1.0333},
       mapTypeId: google.maps.MapTypeId.ROADMAP
@@ -108,6 +110,7 @@
       var optionsCercle = {
       map: maCarte,
       center: maCarte.getCenter(),
+      circleColor: '#81BEF7',
       radius: 35000
       }
       var monCercle = new google.maps.Circle(optionsCercle);

@@ -50,7 +50,7 @@
 		<div class="card h-100">
 			<h4 class="card-header"><i class="fa fa-map-marker fa-2x map-marker" aria-hidden="true"></i><span class="card-title">&nbsp;Proximité</span></h4>
 			<div class="card-body">
-				<p class="card-text">Nous assurons les <strong>dépannage informatique</strong>, <strong>réparation smartphone et tablette</strong> sur tout le <strong>secteur-Médoc</strong> et création de <strong>site web</strong> sur tout le téritoire.</p>
+				<p class="card-text">Nous assurons les <strong>dépannage informatique</strong>, <strong>réparation smartphone et tablette</strong> sur tout le <strong>Médoc</strong> et création de <strong>site web</strong> sur toute la France.</p>
 			</div>
 			<div class="card-footer">
 			</div>
@@ -70,7 +70,7 @@
 		<div class="card h-100">
 			<h4 class="card-header"><i class="fa fa-clock-o fa-2x clock" aria-hidden="true"></i><span class="card-title">&nbsp;Réactivité</span></h4>
 			<div class="card-body">
-				<p class="card-text"><strong>Ordinateurs</strong>, <strong>smartphone et tablette</strong>, tout ces objets sont devenus indispensable à notre quotidien.<br>Notre équipe s'engage à <strong>intervenir rapidement</strong>, afin de <strong>réparer</strong> votre <strong>équipement multimédia</strong> dans les plus brefs délais.</p>
+				<p class="card-text"><strong>Ordinateurs</strong>, <strong>smartphone et tablette</strong>, tout ces objets sont devenus indispensable à notre quotidien.<br>Notre proximité géographique nous permet<strong>d'intervenir rapidement</strong>, afin de <strong>réparer</strong> votre <strong>équipement multimédia</strong> dans les plus brefs délais.</p>
 			</div>
 			<div class="card-footer">
 			</div>

@@ -14,7 +14,7 @@
 }
 body {
   text-align: center;
-  background-color: #F9F9F9;
+  background-color: #d6cece52/*#F9F9F9*/;
   color: black;
 }
 
@@ -79,7 +79,11 @@ span.card-title {
   min-width: 100%;
 }
 /*******style maintenance informatique******/
-
+.row-info{
+   background-color: #FFFFFF;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 
 /*******style réparations smartphone*******/
 .row-smartphone{
@@ -110,6 +114,15 @@ span.card-title {
   color: #2aa8ce;
 }
 /*******style création web******/
+.row-create{
+  background-color: #FFFFFF;
+}
+/******* style page contact *****/
+.row-contact{
+  background-color: #FFFFFF;
+  min-width: 80%;
+}
+
 /*******bouton********/
 .btn-info {
   display: inline-block;
@@ -120,11 +133,16 @@ span.card-title {
 /*FOOTER COLLE EN BAS*/
 .footer {
   /*position: relative;*/
-    /*bottom: 0;*/
-    width: 100%;
-    min-height: 50%;
-    background: rgba(0,0,0,.32);
-    color: #FFFFFF;
+  /*bottom: 0;*/
+ /* display: block;*/
+  width: 100%;
+  height: auto;
+  background: rgba(0,0,0,.32);
+  color: #FFFFFF;
+}
+.row-footer{
+  display: flex;
+  min-height: 70%;
 }
 .card-accueil {
   /*position: absolute;*/
@@ -162,4 +180,18 @@ span.card-title {
   padding-top: 15px;
   padding-bottom: 15px;
   }
+}
+
+@media screen and (max-height: 575px){
+    #rc-imageselect,
+    .g-recaptcha {
+        transform:scale(0.77);
+        transform-origin:0;
+        transform:scale(0.77);
+        transform-origin:0 0;
+        -webkit-transform:scale(0.77);
+        transform:scale(0.77);
+        -webkit-transform-origin:0 0;
+        transform-origin:0 0;
+    }
 }

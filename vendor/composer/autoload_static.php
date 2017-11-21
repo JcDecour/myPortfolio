@@ -19,6 +19,10 @@ class ComposerStaticInit17f4c16d4068374d480f2b535b5912dd
         array (
             'TrueBV\\' => 7,
         ),
+        'R' => 
+        array (
+            'ReCaptcha\\' => 10,
+        ),
         'L' => 
         array (
             'League\\Url\\' => 11,
@@ -34,6 +38,10 @@ class ComposerStaticInit17f4c16d4068374d480f2b535b5912dd
         'TrueBV\\' => 
         array (
             0 => __DIR__ . '/..' . '/true/punycode/src',
+        ),
+        'ReCaptcha\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/google/recaptcha/src/ReCaptcha',
         ),
         'League\\Url\\' => 
         array (
