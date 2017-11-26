@@ -5,18 +5,21 @@
 <h2>Dépannage & Maintenance Informatique</h2>
 <div class="row row-info">
 	<div class="col-md-6">
-		<img class="rounded img-fluid" src="<?= $this->assetUrl('img/laptop-help.jpg')?>" alt="ordinateur en panne">
-	</div>
-	<div class="col-md-6">
 		<h3 class="my-3">Votre <stong>Ordinateur plante</stong>, rame ou n'est plus aussi performant? </h3>
 		<p class="left"> Il existe plusieurs façons de décrire un ordinateur ou périphérique ne fonctionnant pas correctement, en revanche il n'en existe qu'une seule pour résoudre le problème : Faire appel à un <strong>spécialiste informatique</strong>.</p>
 		<p class="left">Chez <strong>Alloitech</strong>, nous mettons à votre disposition l'expertise de nos spécialistes afin de trouvé la meilleur solution possible à votre problématique.</p>
 		<p class="left">Nos techniciens interviennent sur tout le <strong>Médoc</strong>, à votre domicile ou en atelier après récupération de votre matériel sur le lieux de votre choix. 
 		</p>
 	</div>
+	<div class="col-md-6">
+		<img class="rounded img-fluid" src="<?= $this->assetUrl('img/laptop-help.jpg')?>" alt="ordinateur en panne">
+	</div>
 </div>
 <div class="row row-info" style="margin-top: 20px;">
 	<div class="col-md-6">
+		<div class="col-md-6">
+		<img class="rounded img-fluid" src="<?= $this->assetUrl('img/repair-computer-1280.jpg')?>" alt="Intervention sur composant">
+	</div>
 		<h3 class="my-3">Nos services</h3>
 		<ul class="left">
 			<li><i class="fa fa-cog fa-3x" aria-hidden="true">&nbsp;</i>Diagnostics & Interventions immédiates à distance ou directement sur site.</li>
@@ -29,9 +32,6 @@
 			<li><i class="fa fa-cog fa-3x" aria-hidden="true">&nbsp;</i>Audit système</li> 
 		</ul>
 		
-	</div>
-	<div class="col-md-6">
-		<img class="rounded img-fluid" src="<?= $this->assetUrl('img/repair-computer-1280.jpg')?>" alt="Intervention sur composant">
 	</div>
 </div>
 <div class="column justify-content-center div_smart">
