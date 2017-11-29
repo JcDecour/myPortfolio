@@ -33,6 +33,7 @@
 			<li><i class="fa fa-check-square-o fa-2x check" aria-hidden="true">&nbsp;</i>Remplacement bouton home</li>
 			<li><i class="fa fa-check-square-o fa-2x check" aria-hidden="true">&nbsp;</i>Remplacement module wi-fi</li>
 			<li><i class="fa fa-check-square-o fa-2x check" aria-hidden="true">&nbsp;</i>Problème de fonctionement du tactile...</li>
+			<li><i class="fa fa-check-square-o fa-2x check" aria-hidden="true">&nbsp;</i>Rétablissement de l'étanchéité (si téléphone équipé).</li>
 		</ul>
 	</div>
 </div>

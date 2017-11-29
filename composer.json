@@ -31,7 +31,8 @@
         "ircmaxell/password-compat": "^1.0",
         "league/url": "^3.3",
         "phpmailer/phpmailer": "^5.2",
-        "google/recaptcha": "~1.1"
+        "google/recaptcha": "~1.1",
+        "respect/validation": "^1.1"
     },
     "autoload": {
         "psr-4": {

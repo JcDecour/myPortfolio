@@ -16,10 +16,10 @@
 	</div>
 </div>
 <div class="row row-info" style="margin-top: 20px;">
-	<div class="col-md-6">
 		<div class="col-md-6">
 		<img class="rounded img-fluid" src="<?= $this->assetUrl('img/repair-computer-1280.jpg')?>" alt="Intervention sur composant">
 	</div>
+	<div class="col-md-6">
 		<h3 class="my-3">Nos services</h3>
 		<ul class="left">
 			<li><i class="fa fa-cog fa-3x" aria-hidden="true">&nbsp;</i>Diagnostics & Interventions immédiates à distance ou directement sur site.</li>
@@ -29,7 +29,8 @@
 			<li><i class="fa fa-cog fa-3x" aria-hidden="true">&nbsp;</i>Création et assemblage de votre pc sur mesure en fonction de l'utilisation désirée</li>
 			<li><i class="fa fa-cog fa-3x" aria-hidden="true">&nbsp;</i>Upgrade Matériel & composant</li>
 			<li><i class="fa fa-cog fa-3x" aria-hidden="true">&nbsp;</i>Récupération de données sur disque dur, clef usb endommagé. (Hors passage en salle blanche)</li> 
-			<li><i class="fa fa-cog fa-3x" aria-hidden="true">&nbsp;</i>Audit système</li> 
+			<li><i class="fa fa-cog fa-3x" aria-hidden="true">&nbsp;</i>Audit système</li>
+			<li><i class="fa fa-cog fa-3x" aria-hidden="true">&nbsp;</i>Installation Hot-Spot Wi-Fi</li> 
 		</ul>
 		
 	</div>

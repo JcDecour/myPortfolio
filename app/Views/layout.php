@@ -63,23 +63,12 @@
           <?= $this->section('main_content') ?>
         </section>
       </div>
-      <footer class="py-5 bg-dark footer">
+      <!-- <footer class="py-5 bg-dark footer">
         <div class="container">
           <div class="row justify-content-center row-footer">
             <div class="col-md-4 col-sm-4">
               <h4 class=""><span class="card-title"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;Informations</span></h4>
-              <ul>
-                <li></li><a href="<?=$this->url('maintenance')?>" class="light"><strong>Dépannage Informatique St-Vivien-de-Médoc</strong></a></li>
-                <li></li><a href="<?=$this->url('smartphone')?>" class="light"><strong>Réparation Smartphone St-Vivien-de-Médoc</strong></a></li>
-                <li></li><a href="<?=$this->url('maintenance')?>" class="light"><strong>Dépannage Informatique Lesparre-Médoc</strong></a></li>
-                <li></li><a href="<?=$this->url('smartphone')?>" class="light"><strong>Réparation Smartphone Lesparre-Médoc</strong></a></li>
-                <li></li><a href="<?=$this->url('maintenance')?>" class="light"><strong>Dépannage Informatique Pauillac</strong></a></li>
-                <li></li><a href="<?=$this->url('smartphone')?>" class="light"><strong>Réparation Smartphone Pauillac</strong></a></li>
-                <li></li><a href="<?=$this->url('maintenance')?>" class="light"><strong>Dépannage Informatique St-Laurent</strong></a></li>
-                <li></li><a href="<?=$this->url('smartphone')?>" class="light"><strong>Réparation Smartphone St-Laurent</strong></a></li>
-                <li></li><a href="<?=$this->url('maintenance')?>" class="light"><strong>Dépannage Informatique Castelnau-de-Médoc</strong></a></li>
-                <li></li><a href="<?=$this->url('smartphone')?>" class="light"><strong>Réparation Smartphone Castelnau-de-Médoc</strong></a></li>
-              </ul>
+              
             </div>
             <div class="col-md-4 col-sm-4">
               <h4 class=""><span class="card-title"><i class="fa fa-compass" aria-hidden="true"></i>&nbsp;Zone d'intervention</span></h4>
@@ -95,6 +84,62 @@
         </div>
         <br><br><br>
         <p class="m-0 text-center text-white">Copyright © Alloitech 2017</p>
+      </footer> -->
+      <footer>
+        <div class="footer" id="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-5  col-md-5 col-sm-12 col-xs-12">
+                <h3><span class="card-title"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;Informations</span></h3>
+                <ul>
+                <li></li><a href="<?=$this->url('maintenance')?>" class="light"><strong>Dépannage Informatique St-Vivien-de-Médoc</strong></a></li>
+                <li></li><a href="<?=$this->url('smartphone')?>" class="light"><strong>Réparation Smartphone St-Vivien-de-Médoc</strong></a></li>
+                <li></li><a href="<?=$this->url('maintenance')?>" class="light"><strong>Dépannage Informatique Lesparre-Médoc</strong></a></li>
+                <li></li><a href="<?=$this->url('smartphone')?>" class="light"><strong>Réparation Smartphone Lesparre-Médoc</strong></a></li>
+                <li></li><a href="<?=$this->url('maintenance')?>" class="light"><strong>Dépannage Informatique Pauillac</strong></a></li>
+                <li></li><a href="<?=$this->url('smartphone')?>" class="light"><strong>Réparation Smartphone Pauillac</strong></a></li>
+                <li></li><a href="<?=$this->url('maintenance')?>" class="light"><strong>Dépannage Informatique St-Laurent</strong></a></li>
+                <li></li><a href="<?=$this->url('smartphone')?>" class="light"><strong>Réparation Smartphone St-Laurent</strong></a></li>
+                <li></li><a href="<?=$this->url('maintenance')?>" class="light"><strong>Dépannage Informatique Castelnau-de-Médoc</strong></a></li>
+                <li></li><a href="<?=$this->url('smartphone')?>" class="light"><strong>Réparation Smartphone Castelnau-de-Médoc</strong></a></li>
+              </ul>
+              </div>
+              <div class="col-lg-5  col-md-5 col-sm-12 col-xs-12">
+                <h3><span class="card-title"><i class="fa fa-compass" aria-hidden="true"></i>&nbsp;Zone d'intervention</span></h3>
+                <div id="map">
+              </div>
+              </div>
+              <div class="col-lg-2  col-md-2 col-sm-12 col-xs-12 ">
+                <h3 class="rollIn">Alloitech<small class="text-muted span-layout">BY J-C Decourtheix</small></h3>
+                <ul class="social">
+                  <li><a href="#"><i class=" fa fa-facebook fa-2x"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+                  <li><a href="#"><i class="fa fa-phone fa-2x"></i></a></li>
+                 <!--  <li> <a href="#"> <i class="fa fa-pinterest">   </i> </a> </li>
+                  <li> <a href="#"> <i class="fa fa-youtube">   </i> </a> </li> -->
+                </ul>
+              </div>
+            </div>
+            <!--/.row-->
+          </div>
+          <!--/.container-->
+        </div>
+        <!--/.footer-->
+        
+        <div class="footer-bottom">
+          <div class="container">
+            <p class="m-0 text-center text-white">Copyright © Alloitech 2017</p>
+            <!-- <div class="pull-right">
+              <ul class="nav nav-pills payments">
+                <li><i class="fa fa-cc-visa"></i></li>
+                <li><i class="fa fa-cc-mastercard"></i></li>
+                <li><i class="fa fa-cc-amex"></i></li>
+                <li><i class="fa fa-cc-paypal"></i></li>
+              </ul> -->
+            </div>
+          </div>
+        </div>
+        <!--/.footer-bottom-->
       </footer>
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script src="<?= $this->assetUrl('js/bootjs.min.js') ?>"></script>
@@ -110,11 +155,17 @@
       var optionsCercle = {
       map: maCarte,
       center: maCarte.getCenter(),
-      circleColor: '#81BEF7',
+      strokeColor: '#81BEF7',
+      fillColor: 'green',
       radius: 35000
       }
       var monCercle = new google.maps.Circle(optionsCercle);
       }
+      google.maps.event.addDomListener(window, "resize", function() {
+    var center = map.getCenter();
+    google.maps.event.trigger(map, "resize");
+    map.setCenter(center);
+});
       /*var map = new google.maps.Map(document.getElementById('map'), {
       center: {lat: 45.3, lng: -0.9333},
       zoom: 10
