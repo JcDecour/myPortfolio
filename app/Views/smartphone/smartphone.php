@@ -7,10 +7,10 @@
 	<div class="col-md-6">
 		<h3 class="my-3">Votre écran de smartphone est cassé, ou votre batterie ne charge plus ?</h3>
 		<!-- <blockquote class="blockquote left"> -->
-		<p class="left"><strong>Alloitech</strong> répare également vos <strong>smartphone et tablette</strong> Apple à votre domicile en express. (hors interventions sur puce électronique).</p>
+		<p class="left"><strong>Alloitech</strong> répare également vos <strong>smartphone et tablette Apple</strong> à votre domicile en express. (hors interventions sur puce électronique).</p>
 		<p class="left">Pour tout autre <strong>Smartphone</strong>, ou intervention nécessitant une immobilisation nous vous en prêterons un (sous réserve de stock disponible).
 		</p>
-		<p class="left">Nos techniciens se déplace sur tout le <strong>Médoc</strong> pour récuperer votre téléphone à votre domicile, sur votre lieu de travail ou sur à tout autre endroit vous arrangeant.</p>
+		<p class="left">Nos <strong>techniciens</strong> se déplace sur tout le <strong>Médoc</strong> pour récuperer votre téléphone à votre domicile, sur votre lieu de travail ou sur à tout autre endroit vous arrangeant.</p>
 		<!-- </blockquote> -->
 	</div>
 	<div class="col-md-6">
@@ -24,16 +24,16 @@
 	</div>
 	<div class="col-md-6">
 		<h3 class="my-3">Prestations proposé</h3>
-		<ul class="left">
-			<li><i class="fa fa-check-square-o fa-2x check" aria-hidden="true">&nbsp;</i>Remplacement d'écran (lcd et/ou vitre cassé)</li>
-			<li><i class="fa fa-check-square-o fa-2x check" aria-hidden="true">&nbsp;</i>Remplacement de batterie</li>
-			<li><i class="fa fa-check-square-o fa-2x check" aria-hidden="true">&nbsp;</i>Mise à jour logiciel</li>
-			<li><i class="fa fa-check-square-o fa-2x check" aria-hidden="true">&nbsp;</i>Résolution des problèmes de charge (connecteur ou micro-puce de gestion)</li>
-			<li><i class="fa fa-check-square-o fa-2x check" aria-hidden="true">&nbsp;</i>Résolution des problèmes de son</li>
-			<li><i class="fa fa-check-square-o fa-2x check" aria-hidden="true">&nbsp;</i>Remplacement bouton home</li>
-			<li><i class="fa fa-check-square-o fa-2x check" aria-hidden="true">&nbsp;</i>Remplacement module wi-fi</li>
-			<li><i class="fa fa-check-square-o fa-2x check" aria-hidden="true">&nbsp;</i>Problème de fonctionement du tactile...</li>
-			<li><i class="fa fa-check-square-o fa-2x check" aria-hidden="true">&nbsp;</i>Rétablissement de l'étanchéité (si téléphone équipé).</li>
+		<ul class="left smart">
+			<li><i class="fa fa-check-square-o fa-2x check" aria-hidden="true">&nbsp;</i><strong>Remplacement d'écran</strong> (<strong>lcd</strong> et/ou <strong>vitre cassé</strong>)</li>
+			<li><i class="fa fa-check-square-o fa-2x check" aria-hidden="true">&nbsp;</i><strong>Remplacement de batterie</strong></li>
+			<li><i class="fa fa-check-square-o fa-2x check" aria-hidden="true">&nbsp;</i><strong>Mise à jour logiciel</strong></li>
+			<li><i class="fa fa-check-square-o fa-2x check" aria-hidden="true">&nbsp;</i>Résolution des <strong>problèmes de charge</strong> (<strong>connecteur ou micro-puce de gestion</strong>)</li>
+			<li><i class="fa fa-check-square-o fa-2x check" aria-hidden="true">&nbsp;</i>Résolution des <strong>problèmes de sons</strong></li>
+			<li><i class="fa fa-check-square-o fa-2x check" aria-hidden="true">&nbsp;</i><strong>Remplacement bouton home</strong></li>
+			<li><i class="fa fa-check-square-o fa-2x check" aria-hidden="true">&nbsp;</i>Remplacement <strong>module wi-fi</strong></li>
+			<li><i class="fa fa-check-square-o fa-2x check" aria-hidden="true">&nbsp;</i>Problème de <strong>fonctionement du tactile</strong>...</li>
+			<li><i class="fa fa-check-square-o fa-2x check" aria-hidden="true">&nbsp;</i>Rétablissement de l'<strong>étanchéité du téléphone</strong> (si équipé)</li>
 		</ul>
 	</div>
 </div>

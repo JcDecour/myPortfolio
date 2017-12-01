@@ -63,35 +63,13 @@
           <?= $this->section('main_content') ?>
         </section>
       </div>
-      <!-- <footer class="py-5 bg-dark footer">
-        <div class="container">
-          <div class="row justify-content-center row-footer">
-            <div class="col-md-4 col-sm-4">
-              <h4 class=""><span class="card-title"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;Informations</span></h4>
-              
-            </div>
-            <div class="col-md-4 col-sm-4">
-              <h4 class=""><span class="card-title"><i class="fa fa-compass" aria-hidden="true"></i>&nbsp;Zone d'intervention</span></h4>
-              <div id="map">
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-4">
-              <h5><span class="card-title"><i class="fa fa-facebook-official fa-2x" aria-hidden="true">&nbsp;Alloitech</i></span></h5><br>
-              <h5><span class="card-title"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true">&nbsp; Jean-Charles Decourtheix</i></span></h5><br>
-              <h5><span class="card-title"><i class="fa fa-phone fa-2x" aria-hidden="true">&nbsp;0761607494</i></span></h5>
-            </div>
-          </div>
-        </div>
-        <br><br><br>
-        <p class="m-0 text-center text-white">Copyright © Alloitech 2017</p>
-      </footer> -->
       <footer>
         <div class="footer" id="footer">
           <div class="container">
             <div class="row">
-              <div class="col-lg-5  col-md-5 col-sm-12 col-xs-12">
+              <div class="col-lg-4  col-md-4 col-sm-12 col-xs-12">
                 <h3><span class="card-title"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;Informations</span></h3>
-                <ul>
+                <ul class="footer-link">
                 <li></li><a href="<?=$this->url('maintenance')?>" class="light"><strong>Dépannage Informatique St-Vivien-de-Médoc</strong></a></li>
                 <li></li><a href="<?=$this->url('smartphone')?>" class="light"><strong>Réparation Smartphone St-Vivien-de-Médoc</strong></a></li>
                 <li></li><a href="<?=$this->url('maintenance')?>" class="light"><strong>Dépannage Informatique Lesparre-Médoc</strong></a></li>
@@ -104,13 +82,13 @@
                 <li></li><a href="<?=$this->url('smartphone')?>" class="light"><strong>Réparation Smartphone Castelnau-de-Médoc</strong></a></li>
               </ul>
               </div>
-              <div class="col-lg-5  col-md-5 col-sm-12 col-xs-12">
+              <div class="col-lg-4  col-md-4 col-sm-12 col-xs-12">
                 <h3><span class="card-title"><i class="fa fa-compass" aria-hidden="true"></i>&nbsp;Zone d'intervention</span></h3>
                 <div id="map">
               </div>
               </div>
-              <div class="col-lg-2  col-md-2 col-sm-12 col-xs-12 ">
-                <h3 class="rollIn">Alloitech<small class="text-muted span-layout">BY J-C Decourtheix</small></h3>
+              <div class="col-lg-4  col-md-4 col-sm-12 col-xs-12 ">
+                <h3><span class="card-title">Alloitech<small class="text-muted span-layout">BY J-C Decourtheix</small></span></h3>
                 <ul class="social">
                   <li><a href="#"><i class=" fa fa-facebook fa-2x"></i></a></li>
                   <li><a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
@@ -143,42 +121,7 @@
       </footer>
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script src="<?= $this->assetUrl('js/bootjs.min.js') ?>"></script>
-      <script type="text/javascript">
-      function initMap() {
-      // Create a map object and specify the DOM element for display.
-      var optionsCarte = {
-      zoom: 9,
-      center: {lat: 45.25, lng:  -1.0333},
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-      }
-      var maCarte = new google.maps.Map(document.getElementById("map"), optionsCarte);
-      var optionsCercle = {
-      map: maCarte,
-      center: maCarte.getCenter(),
-      strokeColor: '#81BEF7',
-      fillColor: 'green',
-      radius: 35000
-      }
-      var monCercle = new google.maps.Circle(optionsCercle);
-      }
-      google.maps.event.addDomListener(window, "resize", function() {
-    var center = map.getCenter();
-    google.maps.event.trigger(map, "resize");
-    map.setCenter(center);
-});
-      /*var map = new google.maps.Map(document.getElementById('map'), {
-      center: {lat: 45.3, lng: -0.9333},
-      zoom: 10
-      });
-      
-      var maCarte = new google.maps.Map(document.getElementById("EmplacementDeMaCarte"), optionsCarte);
-      var optionsCercle = {
-      map: map,
-      center: map.getCenter(),
-      radius: 500
-      }
-      var monCercle = new google.maps.Circle(optionsCercle);
-      }*/
+      <script type="text/javascript" src="<?= $this->assetUrl('js/initMap.js') ?>">
       </script>
       <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHZfYLmxyVV2xmwmF_IrwFlWszQTH8jOM&callback=initMap"
       type="text/javascript">

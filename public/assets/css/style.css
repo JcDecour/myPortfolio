@@ -14,7 +14,7 @@
 }
 body {
   text-align: center;
-  background-color: #d6cece52/*#F9F9F9*/;
+  background-color: #DEDCDC!important/*#d6cece52/*#F9F9F9*/;
   color: black;
 }
 
@@ -90,7 +90,12 @@ span.card-title {
   padding-bottom: 15px;
   margin-top: 20px;
 }
-
+.maint li{
+  margin-top: 10px;
+}
+.maint li strong{
+  color: brown;
+}
 /*******style réparations smartphone*******/
 .row-smartphone{
   background-color: #FFFFFF;
@@ -103,6 +108,9 @@ span.card-title {
   margin-top: 20px;
   margin-bottom: 15px;
   background-color: /*#f9a726*/#FF5644;
+}
+.smart li{
+  margin-top: 10px; 
 }
 .btn-contact {
 }
@@ -137,10 +145,10 @@ span.card-title {
 }
 /*******style footer ********/
 /*FOOTER COLLE EN BAS*/
-.footer {
-  /*position: relative;*/
-  /*bottom: 0;*/
- /* display: block;*/
+/*.footer {
+  position: relative;
+  bottom: 0;
+  display: block;
   width: 100%;
   height: auto;
   background: rgba(0,0,0,.32);
@@ -149,7 +157,7 @@ span.card-title {
 .row-footer{
   display: flex;
   min-height: 70%;
-}
+}*/
 .card-accueil {
   /*position: absolute;*/
   min-height: 400px;
@@ -166,10 +174,6 @@ span.card-title {
   max-width: 80%;
   min-width: 80%;
 }
-/*.py-5 {
-  padding-bottom: 25rem!important;
-  padding-top: 25rem!important;
-}*/
 
 /***** page contact *****/
 /******* style page contact *****/
@@ -412,12 +416,12 @@ input {
   -ms-border-radius: 50%;
   border-radius: 50%;
   float: left;
-  height: 36px;
-  line-height: 36px;
-  margin: 0 8px 0 0;
+  height: 50px;
+  line-height: 50px;
+  margin: 10px 0px 0 50px;
   padding: 0;
   text-align: center;
-  width: 36px;
+  width: 50px;
   transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
   -webkit-transition: all 0.5s ease 0s;
@@ -454,6 +458,9 @@ input {
 }
 .payments {
   font-size: 1.5em; 
+}
+.footer-link li{
+  margin-top: 10px;
 }
 
 @media (max-width: 768px) {

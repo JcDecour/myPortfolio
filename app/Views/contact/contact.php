@@ -1,6 +1,6 @@
 <?php $this->layout('layout', ['title' => 'Contacter moi']) ?>
 <?php $this->start('main_content') ?>
-<?php /*var_dump($formErrors)*/;
+<?php /*var_dump($post)*/;
 /*var_dump($decode);*/ ?>
 <div class="row row-contact animated fadeInLeftBig">
   <div id="title" class="col-lg-12">

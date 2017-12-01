@@ -53,22 +53,23 @@ class ContactController extends Controller
 			$decode = json_decode(file_get_contents($api_url), true);
 	
 			if ($decode['success'] == true) {
-				//ce n'est pas un robot
-				var_dump('human');
-			}
-	
-			else {
-				// C'est un robot ou le code de vérification est incorrecte
-			var_dump('robots');
-			}
-			// si le captcha n'est pas ok je renvoi une erreur
-			if(!$decode['success'] === true){
-				$formErrors['robot'] = 'Veuillez confirmer que vous êtes bien un humain';
-			}
-
-			if(count($formErrors) === 0){
+				if(count($formErrors) === 0){
 				/***** Architecture mail *****/
-				$message = '<h1>' . 'Name:' . $post['name'] . '</h1>' . '<br>' . '<h2>E-mail:' . $post['email'] . '</h2>' . '<br>' . '<h2>Business:' . $post['business'] . '</h2>' . '<br>' . '<h2>Téléphone:' . $post['phone'] . '</h2>' . '<br>'+'<p>message:' . $post['message'] . '</p>';
+				 
+				 $message = '<html><body>';
+				 $message .= '<h1><strong>Contact Via Alloitech</strong></h1>';
+				 $message .= '<table rules="all" style="border-color: #666;" cellpadding="10">';
+				 $message .= "<tr style='background: #eee;'><td><strong>Name:</strong> </td><td>" . ($post['name']) . "</td></tr>";
+				 $message .= "<tr><td><strong>Email:</strong> </td><td>" . ($post['email']) . "</td></tr>";
+				 $message .= "<tr><td><strong>Société:</strong> </td><td>" . ($post['business']) . "</td></tr>";
+				 $message .= "<tr><td><strong>Téléphone:</strong> </td><td>" . ($post['phone']) . "</td></tr>";
+				 $message .= "<tr><td><strong>Sujet:</strong> </td><td>" . $post['subject'] . "</td></tr>";
+				 
+				 $message .= "<tr><td><strong>Message:</strong> </td><td>" . ($post['message']) . "</td></tr>";
+				 $message .= "</table>";
+				 $message .= "</body></html>";
+				/*****Envoie du mail******/
+
 				 $mail = new PHPMailer;
 					$mail->isSMTP();                                      // Set mailer to use SMTP
 					$mail->Host = 'ssl0.ovh.net';  					  // Specify main and backup SMTP servers
@@ -91,6 +92,12 @@ class ContactController extends Controller
 					else {
 						var_dump( 'Erreur : ' . $mail->ErrorInfo);						
 					}
+			}
+		}
+	
+			else {
+				// C'est un robot ou le code de vérification est incorrecte
+			$formErrors['robot'] = 'Veuillez confirmer que vous êtes bien un humain';
 			}
 		}
 		

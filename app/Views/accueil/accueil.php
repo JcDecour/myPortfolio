@@ -9,7 +9,7 @@
 		</ol>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img class="d-block w-100" src="<?= $this->assetUrl('img/maintenance.png')?>" alt="First slide">
+				<img class="d-block w-100" src="<?= $this->assetUrl('img/ucint.jpg')?>" alt="First slide">
 				<div class="carousel-caption d-none d-md-block title_carousel">
 					<h3><strong>Dépannage Informatique</strong></h3>
 					<p>Windows, Mac et Linux</p>

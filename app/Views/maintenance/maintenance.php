@@ -7,7 +7,7 @@
 	<div class="col-md-6">
 		<h3 class="my-3">Votre <stong>Ordinateur plante</stong>, rame ou n'est plus aussi performant? </h3>
 		<p class="left"> Il existe plusieurs façons de décrire un ordinateur ou périphérique ne fonctionnant pas correctement, en revanche il n'en existe qu'une seule pour résoudre le problème : Faire appel à un <strong>spécialiste informatique</strong>.</p>
-		<p class="left">Chez <strong>Alloitech</strong>, nous mettons à votre disposition l'expertise de nos spécialistes afin de trouvé la meilleur solution possible à votre problématique.</p>
+		<p class="left">Chez <strong>Alloitech</strong>, nous mettons à votre disposition l'<strong>expertise</strong> de nos <strong>spécialistes</strong> afin de trouvé la meilleur solution possible à votre problématique.</p>
 		<p class="left">Nos techniciens interviennent sur tout le <strong>Médoc</strong>, à votre domicile ou en atelier après récupération de votre matériel sur le lieux de votre choix. 
 		</p>
 	</div>
@@ -21,16 +21,16 @@
 	</div>
 	<div class="col-md-6">
 		<h3 class="my-3">Nos services</h3>
-		<ul class="left">
-			<li><i class="fa fa-cog fa-3x" aria-hidden="true">&nbsp;</i>Diagnostics & Interventions immédiates à distance ou directement sur site.</li>
-			<li><i class="fa fa-cog fa-3x" aria-hidden="true">&nbsp;</i>Réinstallation, configuration et optimisation de votre pc et de vos applications</li>
-			<li><i class="fa fa-cog fa-3x" aria-hidden="true">&nbsp;</i>Suppression de virus, résolution des problèmes d’accès Internet ou au email</li>
-			<li><i class="fa fa-cog fa-3x" aria-hidden="true">&nbsp;</i>Optimisation & nettoyage de votrs système</li>
-			<li><i class="fa fa-cog fa-3x" aria-hidden="true">&nbsp;</i>Création et assemblage de votre pc sur mesure en fonction de l'utilisation désirée</li>
-			<li><i class="fa fa-cog fa-3x" aria-hidden="true">&nbsp;</i>Upgrade Matériel & composant</li>
-			<li><i class="fa fa-cog fa-3x" aria-hidden="true">&nbsp;</i>Récupération de données sur disque dur, clef usb endommagé. (Hors passage en salle blanche)</li> 
-			<li><i class="fa fa-cog fa-3x" aria-hidden="true">&nbsp;</i>Audit système</li>
-			<li><i class="fa fa-cog fa-3x" aria-hidden="true">&nbsp;</i>Installation Hot-Spot Wi-Fi</li> 
+		<ul class="left maint">
+			<li><i class="fa fa-cog fa-2x map-marker" aria-hidden="true">&nbsp;</i><strong>Diagnostics & Interventions</strong> immédiates à distance ou directement sur site.</li>
+			<li><i class="fa fa-cog fa-2x map-marker" aria-hidden="true">&nbsp;</i><strong>Réinstallation</strong>, <strong>configuration</strong> et <strong>optimisation</strong> de votre <strong>pc</strong> et de vos <strong>applications</strong></li>
+			<li><i class="fa fa-cog fa-2x map-marker" aria-hidden="true">&nbsp;</i><strong>Suppression de virus</strong>, résolution des <strong>problèmes d’accès Internet</strong> ou au <strong>email</strong></li>
+			<li><i class="fa fa-cog fa-2x map-marker" aria-hidden="true">&nbsp;</i><strong>Optimisation & nettoyage</strong> de votre <strong>système</strong></li>
+			<li><i class="fa fa-cog fa-2x map-marker" aria-hidden="true">&nbsp;</i>Création et <strong>assemblage de votre ordinateur</strong> sur mesure en fonction de l'utilisation désirée <strong>(bureautique, multimédia ou gaming)</strong></li>
+			<li><i class="fa fa-cog fa-2x map-marker" aria-hidden="true">&nbsp;</i><strong>Upgrade Matériel & composant</strong></li>
+			<li><i class="fa fa-cog fa-2x map-marker" aria-hidden="true">&nbsp;</i><strong>Récupération de données</strong> sur <strong>disque dur</strong>, <strong>clef usb endommagé</strong>. (Hors passage en salle blanche)</li> 
+			<li><i class="fa fa-cog fa-2x map-marker" aria-hidden="true">&nbsp;</i><strong>Audit système</strong></li>
+			<li><i class="fa fa-cog fa-2x map-marker" aria-hidden="true">&nbsp;</i><strong>Installation Hot-Spot Wi-Fi</strong></li> 
 		</ul>
 		
 	</div>
