@@ -67,6 +67,8 @@ class ContactController extends Controller
 			}
 
 			if(count($formErrors) === 0){
+				/***** Architecture mail *****/
+				$message = '<h1>' . 'Name:' . $post['name'] . '</h1>' . '<br>' . '<h2>E-mail:' . $post['email'] . '</h2>' . '<br>' . '<h2>Business:' . $post['business'] . '</h2>' . '<br>' . '<h2>Téléphone:' . $post['phone'] . '</h2>' . '<br>'+'<p>message:' . $post['message'] . '</p>';
 				 $mail = new PHPMailer;
 					$mail->isSMTP();                                      // Set mailer to use SMTP
 					$mail->Host = 'ssl0.ovh.net';  					  // Specify main and backup SMTP servers
@@ -80,8 +82,8 @@ class ContactController extends Controller
 					$mail->setFrom('ne-pas-repondre@alloitech.com');
 					$mail->addAddress('jc.decourtheix@outlook.com');     			  // Add a recipient
 					$mail->Subject = $post['subject'];
-					$mail->Body    = $post['subject'];							  //Pour tous les messages (Peuvent contenir du HTML)
-					$mail->AltBody = $post['subject'];							  //Pour tous les messages  SANS HTML
+					$mail->Body    = $message;							  //Pour tous les messages (Peuvent contenir du HTML)
+					$mail->AltBody = 'end';							  //Pour tous les messages  SANS HTML
 					// Envoi 
 					if ($mail->send()) {
 						$formValid = [ 'valid' => 'Votre demande a bien été envoyer :-)'];

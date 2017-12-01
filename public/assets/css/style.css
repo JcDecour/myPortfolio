@@ -28,7 +28,9 @@ body {
     padding-bottom: 100px/* hauteur footer  ;
 }*/
 
-
+.error{
+  color: red;
+}
 
 ul {
   padding: 0;
@@ -42,8 +44,11 @@ ul.right {
   text-align: right;
 }
 
+li.nav-item{
+  color: #E8DB0C;
+}
 nav.bg-light {
-  /*background-color: #f9a726 !important;*/
+  background-color: #FFFFFF !important;
 }
 /*******style page d'accueil********/
 .title_carousel {
@@ -83,6 +88,7 @@ span.card-title {
    background-color: #FFFFFF;
   padding-top: 15px;
   padding-bottom: 15px;
+  margin-top: 20px;
 }
 
 /*******style réparations smartphone*******/
@@ -96,7 +102,7 @@ span.card-title {
   padding-bottom: 8px;
   margin-top: 20px;
   margin-bottom: 15px;
-  background-color: #f9a726;
+  background-color: /*#f9a726*/#FF5644;
 }
 .btn-contact {
 }
@@ -116,6 +122,10 @@ span.card-title {
 /*******style création web******/
 .row-create{
   background-color: #FFFFFF;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 
@@ -320,8 +330,7 @@ input {
 }
 .footer {
   /*background: #EDEFF1;*/
-  background: rgba(0,0,0,.32);
-  /*color: #FFFFFF;*/
+  background: #343A40;
   height: auto;
   padding-bottom: 30px;
   position: relative;
@@ -337,7 +346,7 @@ input {
 }
 .footer h3 {
   border-bottom: 1px solid #BAC1C8;
-  color: #54697E;
+  color: #FFFFFF;
   font-size: 18px;
   font-weight: 600;
   line-height: 27px;
@@ -357,7 +366,7 @@ input {
   display: block;
 }
 .footer a {
-  color: #78828D
+  color: #FBAF48;
 }
 .supportLi h4 {
   font-size: 20px;
@@ -435,7 +444,7 @@ input {
   color: #EDEFF1 !important;
 }
 .footer-bottom {
-  background: #E3E3E3;
+  background: #343A40;
   border-top: 1px solid #DDDDDD;
   padding-top: 10px;
   padding-bottom: 10px;

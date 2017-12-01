@@ -3,7 +3,7 @@
 <?php $this->stop('head') ?>
 <?php $this->start('main_content') ?>
 <h2>Dépannage & Maintenance Informatique</h2>
-<div class="row row-info">
+<div class="row row-info animated fadeInLeft">
 	<div class="col-md-6">
 		<h3 class="my-3">Votre <stong>Ordinateur plante</stong>, rame ou n'est plus aussi performant? </h3>
 		<p class="left"> Il existe plusieurs façons de décrire un ordinateur ou périphérique ne fonctionnant pas correctement, en revanche il n'en existe qu'une seule pour résoudre le problème : Faire appel à un <strong>spécialiste informatique</strong>.</p>
@@ -15,7 +15,7 @@
 		<img class="rounded img-fluid" src="<?= $this->assetUrl('img/laptop-help.jpg')?>" alt="ordinateur en panne">
 	</div>
 </div>
-<div class="row row-info" style="margin-top: 20px;">
+<div class="row row-info animated fadeInRight" style="margin-top: 20px;">
 		<div class="col-md-6">
 		<img class="rounded img-fluid" src="<?= $this->assetUrl('img/repair-computer-1280.jpg')?>" alt="Intervention sur composant">
 	</div>

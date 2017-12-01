@@ -3,7 +3,7 @@
 <?php $this->stop('head') ?>
 <?php $this->start('main_content') ?>
 <h2>Réparation Smartphone et tablette</h2>
-<div class="row row-smartphone">
+<div class="row row-smartphone animated fadeInLeft">
 	<div class="col-md-6">
 		<h3 class="my-3">Votre écran de smartphone est cassé, ou votre batterie ne charge plus ?</h3>
 		<!-- <blockquote class="blockquote left"> -->
@@ -18,7 +18,7 @@
 	</div>
 </div>
 <br><br>
-<div class="row row-smartphone">
+<div class="row row-smartphone animated fadeInRight">
 	<div class="col-md-6">
 		<img class="rounded img-fluid" src="<?= $this->assetUrl('img/mobile-phone-1280.jpg')?>" alt="réparation de smartphone">
 	</div>

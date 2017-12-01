@@ -3,7 +3,7 @@
 <?php $this->stop('head') ?>
 <?php $this->start('main_content') ?>
 <h2>Création de site web</h2>
-<div class="row row-create">
+<div class="row row-create animated fadeInLeft">
 	<div class="col-md-6">
 		<h3 class="my-3">Vous manquez de visibilité, ou souhaité vendre vos produit sur internet ? Ensemble créons votre site Web</h3>
 		<p>.</p>
@@ -19,7 +19,7 @@
 		<img class="rounded img-fluid" src="<?= $this->assetUrl('img/code.jpg')?>" alt="Développement Web">
 	</div>
 </div>
-<div class="row row-create">
+<div class="row row-create animated fadeInRight">
 	<div class="col-md-6">
 		<img class="rounded img-fluid" src="http://placehold.it/750x500" alt="">
 	</div>
