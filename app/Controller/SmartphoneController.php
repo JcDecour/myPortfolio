@@ -14,7 +14,7 @@ class SmartphoneController extends Controller
 	public function smartphone()
 	{
 		
-		$this->show('Smartphone/smartphone', ['get' => $_GET]);
+		$this->show('smartphone/smartphone', ['get' => $_GET]);
 		
 		
 	}

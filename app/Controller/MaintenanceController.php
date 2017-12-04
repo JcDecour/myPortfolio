@@ -13,7 +13,7 @@ class MaintenanceController extends Controller
 	public function Maintenance()
 	{
 		
-		$this->show('Maintenance/maintenance', ['get' => $_GET]);
+		$this->show('maintenance/maintenance', ['get' => $_GET]);
 		
 		
 	}

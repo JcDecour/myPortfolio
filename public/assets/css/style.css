@@ -10,11 +10,11 @@
     flex-direction: column;
     position: relative;
     min-height: 100%;
-  
+    font-family: 'Roboto', sans-serif;
 }
 body {
   text-align: center;
-  background-color: #DEDCDC!important/*#d6cece52/*#F9F9F9*/;
+  background-color: #d6cece52/*#DEDCDC*/!important/*/*#F9F9F9*/;
   color: black;
 }
 
@@ -23,15 +23,17 @@ body {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-
-/*#content {
-    padding-bottom: 100px/* hauteur footer  ;
-}*/
-
 .error{
   color: red;
 }
-
+/*titre des page*/
+.title{
+  background-color: white;
+  margin-bottom: 15px;
+}
+div { 
+border-radius: 3px;
+}
 ul {
   padding: 0;
   margin: 0;
@@ -48,9 +50,20 @@ li.nav-item{
   color: #E8DB0C;
 }
 nav.bg-light {
-  background-color: #FFFFFF !important;
+  background-color: #2f72b5/*#97ff44*/ !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #f1eaea/*rgba(0, 0, 0, 0.84)*/;
+}
+.navbar-light .navbar-toggler{
+  color: #f1eaea;
+  border-color: #f1eaea;
+}
+.navbar-light .navbar-nav .nav-link :hover {
+    color: #DD5043 !important/*rgba(0, 0, 0, 0.84)*/;
 }
 /*******style page d'accueil********/
+
 .title_carousel {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 5px;
@@ -64,9 +77,18 @@ nav.bg-light {
 }
 .span-layout { /*by jc decourtheix*/
   font-size: 0.4em;
+  font-family: 'Pacifico', cursive;
+  color: #ED0000;
+}
+.itech-color{
+  color: #00BFFF;
 }
 a.phone-number {
   text-decoration: none;
+  color: #5dc21e;
+}
+a.phone-number :hover{
+  color: #00BFFF;
 }
 .phone-number {
   vertical-align: 25%;
@@ -78,7 +100,10 @@ span.card-title {
 #row-accueil-responsive{
   display: none;
 }
-
+.hide-keywords li h2{
+  font-size: 1px;
+  color: #343A40;
+}
 #map{
   min-width: 100%;
   height: 320px;
@@ -92,8 +117,24 @@ span.card-title {
 }
 .maint li{
   margin-top: 10px;
+  font-size: 1.1em;
 }
 .maint li strong{
+  color: brown;
+}
+
+.left-info {
+  text-align: left; 
+  padding:0 20px 0 20px;
+  font-size: 1.3em;
+}
+.text-infor {
+  margin-top: 30px;
+}
+#div2-info{
+   margin-top: 20px;
+}
+.left-info strong {
   color: brown;
 }
 /*******style réparations smartphone*******/
@@ -111,9 +152,12 @@ span.card-title {
 }
 .smart li{
   margin-top: 10px; 
+  font-size: 1.1em;
 }
-.btn-contact {
+.smart strong{
+  color: brown;
 }
+
 /******couleur des sites******/
 .check {
   color: rgba(16, 193, 16, 0.95);
@@ -135,7 +179,15 @@ span.card-title {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-
+.ul-web li{
+  padding: 0 20px 0 20px;
+}
+.ul-web ul{
+  margin: 10px 0 10px 0;
+}
+.ul-web li strong{
+  color: brown !important;
+}
 
 /*******bouton********/
 .btn-info {
@@ -143,21 +195,6 @@ span.card-title {
   border-color: #46c601;
   background-color: #46c601;
 }
-/*******style footer ********/
-/*FOOTER COLLE EN BAS*/
-/*.footer {
-  position: relative;
-  bottom: 0;
-  display: block;
-  width: 100%;
-  height: auto;
-  background: rgba(0,0,0,.32);
-  color: #FFFFFF;
-}
-.row-footer{
-  display: flex;
-  min-height: 70%;
-}*/
 .card-accueil {
   /*position: absolute;*/
   min-height: 400px;
@@ -314,7 +351,7 @@ span.card-title {
   .form-btn:active{
     opacity: 0.9;
   }
-center{
+.center{
   margin-top:330px;
 }
 input {
@@ -379,36 +416,12 @@ input {
   margin-bottom: 0 !important;
   padding-bottom: 0;
 }
-.newsletter-box input#appendedInputButton {
-  background: #FFFFFF;
-  display: inline-block;
-  float: left;
-  height: 30px;
-  clear: both;
-  width: 100%;
-}
-.newsletter-box .btn {
-  border: medium none;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -o-border-radius: 3px;
-  -ms-border-radius: 3px;
-  border-radius: 3px;
-  display: inline-block;
-  height: 40px;
-  padding: 0;
-  width: 100%;
-  color: #fff;
-}
-.newsletter-box {
-  overflow: hidden;
-}
 .bg-gray {
   background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
   box-shadow: 0 1px 0 #B4B3B3;
 }
 .social li {
-  background: none repeat scroll 0 0 #B5B5B5;
+  background: none repeat scroll 0 0 #3C5B95/*#B5B5B5*/;
   border: 2px solid #B5B5B5;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -440,7 +453,7 @@ input {
 }
 .social li:hover {
   border: 2px solid #2c3e50;
-  background: #2c3e50;
+  background: /*#2c3e50*/#0178B2;
 }
 .social li a i {
   font-size: 16px;
@@ -464,7 +477,9 @@ input {
 }
 
 @media (max-width: 768px) {
-
+  div #header-card {
+      justify-content: center!important;
+    }
   /***************** Accueil ***************/
   #row-accueil-responsive{
     display: inline;
@@ -473,14 +488,16 @@ input {
     display: none;
   }
   .div-accueil {
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 0 15px 0 15px; 
+  margin: 20px 0 20px 0;
   }
 }
 
 @media screen and (max-height: 575px){
+   div #header-card  {
+       justify-content: center!important;
+     }
+
     #rc-imageselect,
     .g-recaptcha {
         transform:scale(0.77);
@@ -493,3 +510,4 @@ input {
         transform-origin:0 0;
     }
 }
+

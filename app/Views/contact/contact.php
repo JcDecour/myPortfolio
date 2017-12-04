@@ -1,19 +1,20 @@
-<?php $this->layout('layout', ['title' => 'Contacter moi']) ?>
+<?php $this->layout('layout', ['title' => 'Alloitech: Contactez-nous']) ?>
+<?php $this->start('head') ?>
+<meta name="description" content="Prenez contact avec vos spécialistes informatique, réparateur smartphone et tablette et vos développeur web." />
+<?php $this->stop('head') ?>
 <?php $this->start('main_content') ?>
-<?php /*var_dump($post)*/;
-/*var_dump($decode);*/ ?>
 <div class="row row-contact animated fadeInLeftBig">
-  <div id="title" class="col-lg-12">
+  <div id="title" class="col-lg-12 title">
     <h2>Restons en contact</h2>
-    <p class="h3">Merci de renseigner le formulaire, nous vous recontacterons dans les plus brefs délais.</p>
+    <p class="h4">Merci de renseigner le formulaire, nous vous recontacterons dans les plus brefs délais.</p>
   </div>
   <div class="col-lg-12">
     <form method="post" class="">
-    <?php if(!isset($formValid['valid'])): ?>
+      <?php if(!isset($formValid['valid'])): ?>
       <div class="row row-contact">
         <div class="col-lg-6">
           <!-- lastname -->
-         <!-- Gestion des erreurs -->
+          <!-- Gestion des erreurs -->
           <?php if(isset($formErrors['name'])): ?>
           <span class="error"><?=$formErrors['name']?></span>
           <?php endif; ?>
@@ -50,19 +51,18 @@
           <?php if(isset($formErrors['robot'])): ?>
           <span class="error"><?=$formErrors['robot']?></span>
           <?php endif; ?>
-        <div class="g-recaptcha align-self-center" data-sitekey="6Lf1xDkUAAAAAEm7-JtKsNL2pUMbvzZm6baARomg"></div><br>
-        <div class="relative fullwidth col-xs-12">
-          <!-- Send Button -->
-          <button type="submit" id="submit" class="btn btn-info btn-lg">Envoyer</button>
-          </div><!-- End Bottom Submit -->
-        </div>
+          <div class="g-recaptcha justify-content-center" data-sitekey="6Lf1xDkUAAAAAEm7-JtKsNL2pUMbvzZm6baARomg"></div><br>
+          <div class="relative fullwidth col-xs-12">
+            <!-- Send Button -->
+            <button type="submit" id="submit" class="btn btn-info btn-lg">Envoyer</button>
+            </div><!-- End Bottom Submit -->
+          </div>
         </div>
         <?php endif; ?>
         <div class="clear"></div>
         <?php if(isset($formValid['valid'])): ?>
-          <div class="alert alert-success" role="alert"><?=$formValid['valid']?></div>
-          <?php endif; ?>
+        <div class="alert alert-success" role="alert"><?=$formValid['valid']?></div>
+        <?php endif; ?>
       </form>
     </div>
-    
-          <?php $this->stop('main_content') ?>
+    <?php $this->stop('main_content') ?>

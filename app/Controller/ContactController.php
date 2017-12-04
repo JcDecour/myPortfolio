@@ -101,7 +101,7 @@ class ContactController extends Controller
 			}
 		}
 		
-		$this->show('Contact/contact', ['post' => $_POST, 'decode'=>$decode, 'formErrors'=>$formErrors, 'formValid'=>$formValid]);
+		$this->show('contact/contact', ['post' => $_POST, 'decode'=>$decode, 'formErrors'=>$formErrors, 'formValid'=>$formValid]);
 		
 		
 	}

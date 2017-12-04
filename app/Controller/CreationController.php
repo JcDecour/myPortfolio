@@ -13,7 +13,7 @@ class CreationController extends Controller
 	public function creation()
 	{
 		
-		$this->show('Creation/creation', ['get' => $_GET]);
+		$this->show('creation/creation', ['get' => $_GET]);
 		
 		
 	}

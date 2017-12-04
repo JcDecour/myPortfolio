@@ -1,4 +1,4 @@
-/* script d'initialisation de google maps*/
+'use strict'
 
 function initMap() {
       // Create a map object and specify the DOM element for display.
@@ -16,10 +16,11 @@ function initMap() {
       radius: 35000
       }
       var monCercle = new google.maps.Circle(optionsCercle);
-      }
+      
       google.maps.event.addDomListener(window, "resize", function() {
     var center = map.getCenter();
     google.maps.event.trigger(map, "resize");
     map.setCenter(center);
 });
+      }
       
